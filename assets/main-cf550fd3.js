@@ -1,0 +1,2 @@
+import"https://unpkg.com/@workadventure/scripting-api-extra@^1/dist/bundle.js";console.log("Script started successfully");WA.onInit().then(async()=>{console.log("Scripting API ready"),console.log("Player tags: ",WA.player.tags),await WA.players.configureTracking({players:!0,movement:!1}),console.log("Scripting API Extra ready")}).catch(e=>console.error(e));
+//# sourceMappingURL=main-cf550fd3.js.map
